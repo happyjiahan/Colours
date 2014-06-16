@@ -92,6 +92,9 @@ typedef NS_ENUM(NSInteger, ColorComparison) {
 
 
 #pragma mark - Color from Hex/RGBA/HSBA/CIE_LAB/CMYK
+
++ (instancetype)colorWithR:(CGFloat)red G:(CGFloat)green B:(CGFloat)blue A:(CGFloat)alpha;
+
 /**
  Creates a Color from a Hex representation string
  @param hexString   Hex string that looks like @"#FF0000" or @"FF0000"

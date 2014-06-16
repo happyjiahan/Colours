@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     'Ben Gordon' => 'brgordon@ua.edu'
   }
   s.source = {
-    :git => 'https://github.com/bennyguitar/Colours.git',
+    :git => 'https://github.com/happyjiahan/Colours.git',
     :tag => '5.3.0'
   }
   s.homepage    = 'https://github.com/bennyguitar'
