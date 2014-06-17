@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   }
   s.source = {
     :git => 'https://github.com/happyjiahan/Colours.git',
-    :tag => 'happyjiahanV5.3.0.1'
+    :tag => 'happyjiahanV5.3.0.2'
   }
   s.homepage    = 'https://github.com/bennyguitar'
   s.license     = 'LICENSE'
