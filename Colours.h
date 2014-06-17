@@ -23,6 +23,9 @@
 #include "TargetConditionals.h"
 #include <Foundation/Foundation.h>
 
+#define RGBA(r, g, b, a)	[UIColor colorWithR:r G:g B:b A:a]
+#define RGB(r, g, b)        RGBA(r, g, b, 1.0)
+
 
 #pragma mark - Static String Keys
 static NSString * kColoursRGBA_R = @"RGBA-r";
